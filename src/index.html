@@ -19,44 +19,40 @@
     class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 bg-center bg-no-repeat bg-cover bg-[url('https://source.unsplash.com/random/?calm-nature')]"
   >
     <main
-      class="flex flex-col items-center justify-center h-screen gap-4 p-24 bg-gray-100 dark:bg-gray-900 bg-opacity-80 dark:bg-opacity-80"
+      class="flex flex-col items-center justify-center h-screen gap-4 p-24 bg-gray-100 dark:bg-gray-900 bg-opacity-50 dark:bg-opacity-50"
     >
       <img src="/assets/logo.png" alt="logo" class="w-32 h-32 rounded-full" />
 
       <h1 class="text-4xl font-bold">Hello there</h1>
-
-      <p class="text-center">
-        Pick a theme and see how it changes the background and text colors.
-      </p>
-
-      <div
-        class="flex flex-row items-center justify-center gap-12 px-8 py-4 rounded-full bg-gray-200 dark:bg-gray-800 bg-opacity-10 dark:bg-opacity-10 backdrop-blur-xl"
-      >
-        <!-- Three buttons for themes -->
-        <button
-          class="text-blue-500"
-          aria-label="Light mode"
-          onclick="setTheme('light')"
-        >
-          Light
-        </button>
-
-        <button
-          class="text-blue-500"
-          aria-label="Dark mode"
-          onclick="setTheme('dark')"
-        >
-          Dark
-        </button>
-
-        <button
-          class="text-blue-500"
-          aria-label="System default"
-          onclick="setTheme('system')"
-        >
-          System
-        </button>
-      </div>
     </main>
+
+    <footer
+      class="fixed bottom-0 w-full flex flex-row items-center px-8 py-4 gap-4 bg-gray-200 dark:bg-gray-800 bg-opacity-10 dark:bg-opacity-10 backdrop-blur-xl"
+    >
+      <!-- Three buttons for themes -->
+      <button
+        class="text-blue-500"
+        aria-label="Light mode"
+        onclick="setTheme('light')"
+      >
+        Light
+      </button>
+
+      <button
+        class="text-blue-500"
+        aria-label="Dark mode"
+        onclick="setTheme('dark')"
+      >
+        Dark
+      </button>
+
+      <button
+        class="text-blue-500"
+        aria-label="System default"
+        onclick="setTheme('system')"
+      >
+        System
+      </button>
+    </footer>
   </body>
 </html>
