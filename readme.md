@@ -9,26 +9,26 @@ Use this repository as a template to create a new repository.
 
 ## Development
 
-1. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-1. Start the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-1. Open the browser to http://localhost:5173
+### Open the browser to http://localhost:5173
 
 ## Building
 
-1. Build the project
+### Build the project
 
 ```bash
 npm run build
 ```
 
-1. The output will be in the `dist` directory
+### The output will be in the `dist` directory
