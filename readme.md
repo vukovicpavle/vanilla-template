@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-### Open the browser to http://localhost:5173
+### Open the browser to <http://localhost:5173>
 
 ## Building
 
